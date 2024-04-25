@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    border-bottom: solid white 1px;
+    background-color: green;
+    
+}
+p{
+    padding: 1rem;
+    color: white;
+}
+
+.header_middel{
+    display: flex;
+    justify-content: center;
+}
+.end{
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+}
+
+h2{
+    padding: 1rem;
+}
+.icon1, .icon2{
+    padding: 1rem;
+}
