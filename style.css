@@ -26,7 +26,7 @@ a{
 
 .header_middel{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     
 }
 .end{
@@ -50,9 +50,42 @@ h2{
 }
 
 header a:hover{
-    color: black;
+    border-bottom: solid 1px;
+    border-color: white;
+
 
 
     
     
+}
+
+.MainDiv .hoverBox:hover{
+    background-color: #7f8c8d;
+    
+}
+.MainDiv{
+    color: #34495e;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+
+    
+   
+}
+
+.divP{
+    display: flex;
+    justify-content: center;
+}
+.hoverBox{
+    display: flex;
+    justify-content: center;
+    width: 8rem;
+    height: 4rem;
+
+    
+    
+}
+.divP h2{
+    padding: 0;
 }
