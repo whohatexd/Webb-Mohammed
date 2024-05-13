@@ -11,19 +11,15 @@
 
     </div>
     <header>
-        
-
+    
         <div class="header_middel">
-            <div class="start"><h2>AM</h2></div>
             <div class="word1"><a href="">AuroraMotors</a></div>
-             <div class="word1"><a href="">Modeller</a></div>
-             <div class="word1"><a href="">elbilar</a></div>
-             <div class="word1"><a href="">köp</a></div>
+             <div class="word1"><a href="">Modellen</a></div>
         </div>
 
         <div class="end">
-            <div class="icon1"><a href=""><iconify-icon icon="ic:baseline-perm-identity" width="2rem" height="2rem" style="color: white"></iconify-icon></a></div>
-            <div class="icon2"><a href=""><iconify-icon icon="mdi:shopping-cart-outline" width="2rem" height="2rem"  style="color: white"></iconify-icon></a></div>
+            <div class="icon1"><a href=""><iconify-icon icon="ic:baseline-perm-identity" width="2rem" height="2rem" ></iconify-icon></a></div>
+            <div class="icon2"><a href=""><iconify-icon icon="mdi:shopping-cart-outline" width="2rem" height="2rem"  ></iconify-icon></a></div>
         </div>
 
 
@@ -31,15 +27,23 @@
 
     </header>
     <main>
-        
-            <div class="divP">
-                <h2>The brand new Am i5 </h2>
+        <div class="middle">
+            <div class="main_middle"><h3>one of the fastet cars in the world</h3></div>
+            <div class="main_middle">
+                <button type="button" class="button" id="Läsmer"><a href=""><h3>Läs mer</h3></a></button>
             </div>
-            <div class="divP"><h2>Am i5</h2></div>
-            <div class="hoverBox"><h2><a href="">Läs mer</a></h2></div>
+        </div>
         
     </main>
+
     
 </body>
-<script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+<script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js">
+
+    let Läsmer=document.getElementById("Läsmer")
+    Läsmer.onclick=function(){
+        Läsmer.classList.add("button")
+    }
+    
+</script>
 </html>

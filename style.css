@@ -1,13 +1,13 @@
 body{
     margin: 0;
-    background-image: url(bmw-m2-nfs-raining-4k-ww.jpg);
+    background-image: url(338543.jpg);
     background-size: cover;
 }
 header{
     display: flex;
     justify-content: space-between;
     max-width: 100%;
-    border-bottom: solid white 1px;
+   
    
     
 }
@@ -18,7 +18,7 @@ header{
     
 
 }
-a{
+header a{
     color: white;
     text-decoration: none;
 
@@ -50,42 +50,42 @@ h2{
 }
 
 header a:hover{
-    border-bottom: solid 1px;
-    border-color: white;
-
-
-
-    
-    
-}
-
-.MainDiv .hoverBox:hover{
-    background-color: #7f8c8d;
-    
-}
-.MainDiv{
     color: #34495e;
-    margin-top: 10rem;
-    display: flex;
-    justify-content: center;
-
-    
-   
-}
-
-.divP{
-    display: flex;
-    justify-content: center;
-}
-.hoverBox{
-    display: flex;
-    justify-content: center;
-    width: 8rem;
-    height: 4rem;
-
-    
+    transition: color 0.5s;
     
 }
-.divP h2{
-    padding: 0;
+
+
+
+
+.middle{
+    width: 250px;
+    text-align: center;
+    margin-top: 25rem;
+    margin-left: 1rem;
+    color: white;
+    
 }
+.middle button{
+    color: black;
+    width: 200px;
+    height: 50px;
+    background-color: grey;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 20px;
+    flex-basis: 48%;
+
+}
+.middle a{
+    color: #34495e;
+    text-decoration: none;
+}
+.middle .button:hover{
+    background-color: white;
+    transition: background 0.5s;
+}
+
+
+
