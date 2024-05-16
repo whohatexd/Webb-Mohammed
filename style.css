@@ -81,7 +81,7 @@ header a:hover{
 .middle .button:hover{
     background-color: white;
     color: black;
-    transition: background 0.5s;
+    transition: 0.5s;
     width:250px;
     height: 60px;
 }
@@ -139,12 +139,28 @@ footer div{
 
     .middle{
         width: 250px;
-        text-align: center;
+        
         margin-top: 20rem;
-        margin-left: 15rem;
+        margin-left: 18rem;
         color: white;
         
     }
 }
 
 
+@media(max-width: 321px){
+    body{
+        width: 321px;
+    }
+    header{
+        
+    }
+    .middle{
+        margin-left: 3rem;
+
+    }
+    footer{
+        margin-left: 3rem;
+    }
+
+}
