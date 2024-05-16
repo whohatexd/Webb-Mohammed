@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    background-color: black;
+   
+   
+    
+}
+.word1{
+    
+    color: white;
+    padding: 2rem;
+    
+
+}
+header a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.header_middel{
+    display: flex;
+    justify-content: start;
+    
+}
+.end{
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+}
+
+h2{
+    padding: 1rem;
+}
+.icon1, .icon2{
+    padding: 1rem;
+}
+
+
+header a:hover{
+    color: #34495e;
+    transition: color 0.5s;
+    font-size: larger;
+    
+}

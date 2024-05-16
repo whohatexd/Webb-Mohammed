@@ -2,6 +2,7 @@ body{
     margin: 0;
     background-image: url(338543.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 header{
     display: flex;
@@ -97,3 +98,53 @@ footer div{
     padding: 1rem;
     
 }
+
+@media(max-width: 426px){
+
+    
+        body{
+            background-image: url(Bmw\ 🖤😈\ -\ M4.jpg);
+            background-size: cover;
+        }
+    
+    
+
+    header{
+        width: max-content;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+   
+     .middle{
+            width: 250px;
+            text-align: center;
+            margin-top: 10rem;
+           margin-left: 5rem;
+            color: white;
+            
+        }
+
+    footer{
+        margin-top: 22rem;
+    }
+
+}
+
+@media (max-width:769px ){
+    
+    footer{
+        margin-top: 24rem;
+    }
+
+    .middle{
+        width: 250px;
+        text-align: center;
+        margin-top: 20rem;
+        margin-left: 15rem;
+        color: white;
+        
+    }
+}
+
+
