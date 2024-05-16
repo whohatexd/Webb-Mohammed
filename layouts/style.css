@@ -1,12 +1,75 @@
 body{
     margin: 0;
 }
+.övreMain{
+    background-image:url(bmwi5_16to7.webp) ;
+    background-size: cover;
+    height: 58rem;
+
+    
+}
+.smal{
+    font-size: x-small;
+}
+
+.undermain{
+    margin: auto;
+    
+    width: 30rem;
+}
+.nedreMain h3{
+    padding: 0;
+    margin: 0;
+}
+.nedreMain p{
+    padding: 0;
+    margin: 0;
+}
+.nedreMain{
+    
+    width: 20rem;
+    margin-left: 2rem;
+    margin-top: 20rem;
+    height: 5rem;
+    color: white;
+}
+.nedreMain a{
+    text-decoration: none;
+    color: white;
+}
+.nedreMain button:hover{
+    background: #34495e;
+    color: white;
+    width:8rem ;
+    height: 3rem;
+    transition: 0.5s;
+}
+.nedreMain button{
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor:pointer;
+    width: 6rem;
+    margin-top: 1rem;
+}
+.I5{
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+    
+}
 
 header{
     display: flex;
     justify-content: space-between;
     max-width: 100%;
-    background-color: black;
+    position: sticky;
+    top: 0;
+    
    
    
     
@@ -49,4 +112,143 @@ header a:hover{
     transition: color 0.5s;
     font-size: larger;
     
+}
+
+main{
+    width: 120rem;
+    height: 60rem;
+
+}
+
+.container1{
+    background-image: url(g70m_promotional_teaser_cannes_3to1.webp);
+    background-size: cover;
+    max-width: 120rem;
+    height: 30rem;
+   margin-bottom: 2rem;
+   box-shadow: 10px 11px 73px 16px rgba(0,0,0,0.55) inset;
+-webkit-box-shadow: 10px 11px 73px 16px rgba(0,0,0,0.55) inset;
+-moz-box-shadow: 10px 11px 73px 16px rgba(0,0,0,0.55) inset;
+
+}
+.container2{
+    background-image: url(g82_cs_promotional_teaser_3to1.webp);
+    background-size: cover;
+    
+    
+    max-width: 120rem;
+    color: white;
+    height: 35rem;
+    box-shadow: 10px 11px 73px 16px rgba(0,0,0,0.55) inset;
+-webkit-box-shadow: 10px 11px 73px 16px rgba(0,0,0,0.55) inset;
+-moz-box-shadow: 10px 11px 73px 16px rgba(0,0,0,0.55) inset;
+
+}
+.Content1, .Content2{
+    color: white;
+    margin-left: 2rem;
+    padding-top: 100px;
+    filter: blur(0);
+    
+
+}
+
+.Content1 h1 , .Content2 h1{
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.Content1 h2, .Content2 h2{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    
+}
+
+.crazy{
+    font-size: large;
+}
+
+.Content1 button, .Content2 button{
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor:pointer;
+    width: 6rem;
+    margin-top: 1rem;
+
+}
+
+
+.Content1 a, .Content2 a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.Content1 button:hover, .Content2 button:hover{
+    background: #34495e;
+    color: white;
+    width:8rem ;
+    height: 3rem;
+    transition: 0.5s;
+
+}
+
+footer{
+    
+    
+          color:black;
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+        margin-top: 7rem;
+        margin-left: 1rem;
+        
+    
+}
+footer div{
+    margin:1rem;
+}
+
+@media(max-width: 321px){
+    header{
+        display: flex;
+        justify-content: start;
+    }
+    .övreMain{
+        background-image: url(bmwi5_16to7.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 380px;
+    }
+    .container1, .container2{
+        width: 500px;
+    }
+
+}
+
+@media(max-width: 426px){
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    .övreMain{
+        background-image: url(bmwi5_16to7.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 650px;
+    }
+    .container1, .container2{
+        width: 650x;
+    }
+
 }
